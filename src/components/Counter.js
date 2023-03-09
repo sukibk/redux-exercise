@@ -3,7 +3,7 @@ import classes from './Counter.module.css';
 import store from '../store/index'
 import toast, {Toaster} from 'react-hot-toast'
 import {Component} from "react";
-import {counterActions} from "../store/index";
+import {counterActions} from "../store/counter";
 
 const Counter = () => {
   const counter = useSelector(state=> state.counter.counter);
